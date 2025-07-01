@@ -3,13 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.smartbustracker"
-    compileSdk = 36
+
+    namespace = "com.example.bustracker"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.smartbustracker"
-        minSdk = 29
-        targetSdk = 36
+        applicationId = "com.example.bustracker"
+        minSdk = 24
+        targetSdk = 35
+
         versionCode = 1
         versionName = "1.0"
 
@@ -40,6 +42,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
 }
