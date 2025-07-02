@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\drawable_buslogo.jpg.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\drawable\\buslogo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\layout_activity_splashactivity.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\layout\\activity_splashactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.smartbustracker.app-debug-33:/layout_activity_splashactivity.xml.flat",
+        "source": "com.example.smartbustracker.app-main-35:/layout/activity_splashactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-debug-33:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\manas\\.gradle\\daemon\\8.13\\com.example.smartbustracker.app-main-35:\\mipmap-anydpi\\ic_launcher_round.xml"
+    }
+]

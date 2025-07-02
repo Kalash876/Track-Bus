@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+anim fade_in
+color black
+color white
+drawable buslogo
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id footer_text
+id lottie_bus_animation
+id main
+layout activity_main
+layout activity_splashactivity
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.SmartBusTracker
+style Theme.SmartBusTracker
+xml backup_rules
+xml data_extraction_rules
