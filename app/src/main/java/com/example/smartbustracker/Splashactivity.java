@@ -4,10 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.view.animation.Animation;
-import android.view.animation.AnimationSet;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -16,9 +13,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 public class Splashactivity extends AppCompatActivity {
 
-    private static final int SPLASH_DURATION = 3000;
+    private static final int SPLASH_DURATION = 3000; // reduced duration
+    private static final String TYPEWRITER_TEXT = "Welcome to SmartBus Tracker";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,36 +27,43 @@ public class Splashactivity extends AppCompatActivity {
         setContentView(R.layout.activity_splashactivity);
 
         // Get views
-        ImageView logoImageView = findViewById(R.id.logo_image);
+        LottieAnimationView lottieBusAnimation = findViewById(R.id.lottie_bus_animation);
         TextView footerTextView = findViewById(R.id.footer_text);
 
-        // Load animations
-        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in); // Create this
-        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up); // Create this
-        Animation footerBlast = AnimationUtils.loadAnimation(this, R.anim.footer_blast); // Already created earlier
+        // Initially hide footer text
+        footerTextView.setVisibility(View.INVISIBLE);
 
-        // Combine fade + scale for logo
-        AnimationSet animationSet = new AnimationSet(true);
-        animationSet.addAnimation(fadeIn);
-        animationSet.addAnimation(scaleUp);
-        logoImageView.startAnimation(animationSet);
+        // Start Lottie animation
+        lottieBusAnimation.playAnimation();
 
-        // Apply window insets for edge-to-edge
+        // Show and start typewriter effect in parallel
+        footerTextView.setVisibility(View.VISIBLE);
+        int delayPerChar = SPLASH_DURATION / TYPEWRITER_TEXT.length(); // ~93ms per character
+        startTypewriterEffect(footerTextView, TYPEWRITER_TEXT, delayPerChar);
+
+        // After SPLASH_DURATION, move to MainActivity
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            startActivity(new Intent(Splashactivity.this, MainActivity.class));
+            finish();
+        }, SPLASH_DURATION);
+
+        // Edge-to-edge padding
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
 
-        // Play footer blast animation after 1.5 seconds
-        new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            footerTextView.startAnimation(footerBlast);
-        }, 1500);
-
-        // Go to MainActivity after splash duration
-        new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            startActivity(new Intent(Splashactivity.this, MainActivity.class));
-            finish();
-        }, SPLASH_DURATION);
+    // Typewriter effect logic
+    private void startTypewriterEffect(TextView textView, String text, int delayPerChar) {
+        Handler handler = new Handler(Looper.getMainLooper());
+        textView.setText("");
+        for (int i = 0; i < text.length(); i++) {
+            int finalI = i;
+            handler.postDelayed(() -> {
+                textView.append(String.valueOf(text.charAt(finalI)));
+            }, i * delayPerChar);
+        }
     }
 }
